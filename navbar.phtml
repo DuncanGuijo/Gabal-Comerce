@@ -1,0 +1,28 @@
+<div class="nav-container sticky-top">
+    <nav class="navbar navbar-expand-lg shadow py-3" style="background-color: #707070 !important;">
+        <a href="contact.phtml" class="navbar-nav d-flex align-items-center text-white px-4 px-lg-2" style="margin-left: 1rem;">sales@gabalcommerce.com
+        </a>
+        <div class="navbar-nav ms-auto p-2 p-lg-0 text-white px-lg-5" style="flex-direction: row; gap:1rem; margin-right:1rem;">
+            <i class="bi bi-linkedin" aria-hidden="true"></i>
+            <i class="bi bi-whatsapp" aria-hidden="true"></i>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-0">
+        <a href="index.phtml" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary">Gabal Commerce LLC</h2>
+        </a>
+        <button name="menu" type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.phtml" class="nav-item nav-link <?= $page == "inicio" ? "active" : "" ?>">Inicio</a>
+                <a href="servicios.phtml" class="nav-item nav-link <?= $page == "servicios" ? "active" : "" ?>">Servicio</a>
+                <a href="sobre_nosotros.phtml" class="nav-item nav-link  <?= $page == "sobre_nosotros" ? "active" : "" ?>">Sobre nosotros</a>
+                <a href="contact.phtml" class="nav-item nav-link  <?= $page == "contact" ? "active" : "" ?>">Contacto</a>
+                <a href="blog.phtml" class="nav-item nav-link  <?= $page == "blog" ? "active" : "" ?>">Blog</a>
+            </div>
+        </div>
+    </nav>
+</div>
